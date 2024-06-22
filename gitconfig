@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = /usr/bin/vi -f
 
 [alias]
   co = checkout
@@ -47,5 +47,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = 48558822+deva-sou@users.noreply.github.com
+	email = devasou974@gmail.com
 	name = devasou
